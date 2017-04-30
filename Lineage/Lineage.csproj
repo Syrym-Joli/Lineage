@@ -100,13 +100,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\ico\Facebook_64px.png" />
+    <Content Include="Content\assets\ico\Instagram_64px.png" />
     <Content Include="Content\assets\ico\Logo Lineage.png" />
     <Content Include="Content\assets\ico\Logo Lineage300x82.png" />
     <Content Include="Content\assets\ico\tree.png" />
     <Content Include="Content\assets\ico\tree.svg" />
+    <Content Include="Content\assets\ico\Twitter_64px.png" />
+    <Content Include="Content\assets\ico\VK.com_64px.png" />
     <Content Include="Content\assets\img\1300x200.svg" />
     <Content Include="Content\assets\img\about.jpg" />
     <Content Include="Content\assets\img\photo.jpg" />
+    <Content Include="Content\assets\img\tSBA1Hwy2wI.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -118,7 +123,7 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\p.js" />
+    <Content Include="Scripts\particles.js" />
     <Content Include="Scripts\treant\examples\basic-example\basic-example.css" />
     <Content Include="Scripts\treant\examples\basic-example\basic-example.js" />
     <Content Include="Scripts\treant\examples\basic-example\index.html" />
@@ -235,8 +240,6 @@
     <Content Include="Views\web.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.min.css.map" />

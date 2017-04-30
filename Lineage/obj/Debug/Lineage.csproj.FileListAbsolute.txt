@@ -71,5 +71,6 @@ C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.Deployment.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.Razor.xml
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Debug\Lineage.csprojResolveAssemblyReference.cache
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Debug\Lineage.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Debug\Lineage.pdb
