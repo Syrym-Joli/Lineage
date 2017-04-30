@@ -1,0 +1,219 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="~/Content/assets/ico/tree.png">
+    <title>Lineage | Происхождение</title>
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet">
+    <!-- Treant core CSS -->
+    <link href="~/Content/Treant.css" rel="stylesheet" />
+    <link href="~/Content/Treant.main.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Content/footerNavbar.css" rel="stylesheet">
+</head>
+<body>
+    <!-- js net particles.js container -->
+    <div id="particles-js"></div>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="~/Home/index">Lineage</a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">App for Windwos</a></li>
+                            <li><a href="#">...</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" placeholder="Поиск">
+                            </div>
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Редактировать</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Выйти</a></li>
+                        </ul>
+                    </li>
+                    <button type="button" class="btn btn-default navbar-btn">Войти</button>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <div class="jumbotron">
+                    <img src="~/Content/assets/ico/Logo Lineage300x82.png" alt="logo">
+                    <p class="textNext">| Происхождение</p>
+                    <p>“Lineage” предназначена для будущих поколений.</p>
+                    <p>Её главная задача показать будущему поколению родственную связь.</p>
+
+                    <p>
+                        <a class="btn btn-lg btn-primary" href="components.php/#navbar" role="button">Руководство &raquo;</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <!--------------------*** Войдите логин пароль ***----------------------------->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong> Войдите, чтобы продолжить</strong>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" action="#" method="POST">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="center-block">
+                                        <img class="profile-img"
+                                             src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-10  col-md-offset-1 ">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="glyphicon glyphicon-user"></i>
+                                                </span>
+                                                <input class="form-control" placeholder="Логин" name="loginname" type="text" autofocus>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="glyphicon glyphicon-lock"></i>
+                                                </span>
+                                                <input class="form-control" placeholder="Пароль" name="password" type="password" value="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-lg btn-primary btn-block" value="Войдите">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="panel-footer ">
+                        У вас нет учетной записи? <a href="#" data-toggle="modal" data-target="#myModal"> Новая учетная запись </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--------------------***   ***----------------------------->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Впервые здесь?</h4>
+                </div>
+                <div class="modal-body">
+                    <h4>Моментальная регистрация</h4>
+                    <br>
+                    <input type="text" class="form-control" placeholder="Ваше имя" id="new_name">
+                    <h6></h6>
+                    <input type="text" class="form-control" placeholder="Ваша фамилия" id="new_surname">
+                    <br>
+                    <input type="email" class="form-control" placeholder="E-mail" id="new_email">
+                    <h6></h6>
+                    <input type="password" class="form-control" placeholder="Пароль" id="new_pass">
+                    <div id="index_fbsign" class="index_fbsign">
+                        <a id="index_fb" class="index_fb_lnk" href="" onclick="return Index.fbJoin();">
+                            <div class="index_fb_icon"></div>Войти через Facebook
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" id="sign_up">Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Panel Treant -->
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Генеалогическое древо</div>
+                    <div class="panel-body">
+                        <!-- Treant -->
+                        <div class="chart" id="custom-colored"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <footer class="footer modal-footer">
+            <!--  footer  -->
+            <div class="container">
+                <span class="text-muted">Lineages 2017</span>
+                <span class="text-muted">by Syrym Joli</span>
+            </div>
+        </footer><!--  footer  -->
+
+
+        <script type="text/javascript"></script>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+
+        <script src="~/Scripts/treant/vendor/raphael.js"></script>
+        <script src="~/Scripts/treant/Treant.js"></script>
+        <script src="~/Scripts/treant/Treant.min.js"></script>
+
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        <script src="~/Scripts/p.js"></script>
+
+        <script>
+            new Treant(chart_config)
+        </script>
+</body>
+
+</html>

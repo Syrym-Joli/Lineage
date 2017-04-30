@@ -1,0 +1,80 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin:0; 
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.starter-template {
+  padding: 4% 95% ,, 2%;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+address{
+	text-align: left;
+}
+.img-rounded{
+	float: right; 
+    margin: 0 0 5px 5px;
+}
+
+.page-header{
+	text-align: center
+}
+.panel-heading {
+    padding: 5px 15px;
+}
+
+.panel-footer {
+	padding: 1px 15px;
+	color: #212121;
+}
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/* ---- reset ---- */ canvas{ display: block; vertical-align: bottom; }
+
+/* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+
+.textNext{
+    font-size: 6px;
+    color:#A2A89E 
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
