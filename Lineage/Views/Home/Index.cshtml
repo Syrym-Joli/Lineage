@@ -1,121 +1,40 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    <!-- js net particles.js container -->
-    <div id="particles-js"></div>
+<!-- фон -->
+<div id="particles-js"></div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-8">
-                <div class="jumbotron">
-                    <img src="~/Content/assets/ico/Logo Lineage300x82.png" alt="logo">
-                    <p class="textNext">| Происхождение</p>
-                    <p>“Lineage” предназначена для будущих поколений.</p>
-                    <p>Её главная задача показать будущему поколению родственную связь.</p>
-
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="components.php/#navbar" role="button">Руководство &raquo;</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-md-4">
-                <!--------------------*** Войдите логин пароль ***----------------------------->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <strong> Войдите, чтобы продолжить</strong>
-                    </div>
-                    <div class="panel-body">
-                        <form role="form" action="#" method="POST">
-                            <fieldset>
-                                <div class="row">
-                                    <div class="center-block">
-                                        <img class="profile-img"
-                                             src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-10  col-md-offset-1 ">
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <span class="input-group-addon">
-                                                    <i class="glyphicon glyphicon-user"></i>
-                                                </span>
-                                                <input class="form-control" placeholder="Логин" name="loginname" type="text" autofocus>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <span class="input-group-addon">
-                                                    <i class="glyphicon glyphicon-lock"></i>
-                                                </span>
-                                                <input class="form-control" placeholder="Пароль" name="password" type="password" value="">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="submit" class="btn btn-lg btn-primary btn-block" value="Войдите">
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                    <div class="panel-footer ">
-                        У вас нет учетной записи? <a href="#" data-toggle="modal" data-target="#myModal"> Новая учетная запись </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--------------------***   ***----------------------------->
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Впервые здесь?</h4>
-                </div>
-                <div class="modal-body">
-                    <h4>Моментальная регистрация</h4>
-                    <br>
-                    <input type="text" class="form-control" placeholder="Ваше имя" id="new_name">
-                    <h6></h6>
-                    <input type="text" class="form-control" placeholder="Ваша фамилия" id="new_surname">
-                    <br>
-                    <input type="email" class="form-control" placeholder="E-mail" id="new_email">
-                    <h6></h6>
-                    <input type="password" class="form-control" placeholder="Пароль" id="new_pass">
-                    <div id="index_fbsign" class="index_fbsign">
-                        <a id="index_fb" class="index_fb_lnk" href="" onclick="return Index.fbJoin();">
-                            <div class="index_fb_icon"></div>Войти через Facebook
-                        </a>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success" id="sign_up">Зарегистрироваться</button>
-                </div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <div class="jumbotron">
+                <img src="~/Content/assets/ico/Logo Lineage300x82.png" alt="logo">
+                <p class="textNext">| Происхождение</p>
+                <p>“Lineage” предназначена для будущих поколений.</p>
+                <p>Её главная задача показать будущему поколению родственную связь.</p>
+                <p>
+                    <a class="btn btn-lg btn-primary" href="components.php/#navbar" role="button">Руководство &raquo;</a>
+                </p>
             </div>
         </div>
     </div>
 
-    <!-- Panel Treant -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12">
-                <div class="panel panel-success">
-                    <div class="panel-heading">Генеалогическое древо</div>
-                    <div class="panel-body">
-                        <!-- Treant -->
-                        <div class="chart" id="custom-colored"></div>
+        <!-- Panel Treant -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">пример Генеалогическое древо</div>
+                        <div class="panel-body">
+                            <!-- Treant -->
+                            <div class="chart" id="custom-colored"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <script type="text/javascript"></script>
-
+    
     <script src="~/Scripts/treant/vendor/raphael.js"></script>
     <script src="~/Scripts/treant/Treant.js"></script>
     <script src="~/Scripts/treant/Treant.min.js"></script>

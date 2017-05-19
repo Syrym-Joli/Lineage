@@ -76,12 +76,24 @@ address{
 #sabrow{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+#draggable {
+    height: 550px;
+    padding: 0.5em;
+    background: #A2A89E;
+}
+.app-bar.darcula {
+    background-color: #808080;
+}
+.app-bar {
+    overflow: visible;
+    height: auto;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+}

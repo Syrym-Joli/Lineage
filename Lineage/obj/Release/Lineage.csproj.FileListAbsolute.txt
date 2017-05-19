@@ -74,3 +74,7 @@ C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Release\Lineage.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Release\Lineage.pdb
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Release\Lineage.csprojResolveAssemblyReference.cache
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.dll
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.SqlServer.dll
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.xml
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.SqlServer.xml

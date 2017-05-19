@@ -50,6 +50,8 @@ C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Lineage
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Lineage.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Lineage.pdb
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Antlr3.Runtime.dll
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.dll
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.SqlServer.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.Razor.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\WebGrease.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Antlr3.Runtime.pdb
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.xml
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\EntityFramework.SqlServer.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\Newtonsoft.Json.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.Helpers.xml
@@ -71,5 +75,6 @@ C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.Deployment.xml
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\bin\System.Web.WebPages.Razor.xml
+C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Debug\Lineage.csprojResolveAssemblyReference.cache
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Debug\Lineage.dll
 C:\Users\wwwsi\Documents\Visual Studio 2017\Projects\Lineage\Lineage\obj\Debug\Lineage.pdb

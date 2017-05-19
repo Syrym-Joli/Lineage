@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=tcp:7ata.database.windows.net,1433;Initial Catalog=DBLineage;Integrated Security=False;User Id=Syrym.joli@7ata.database.windows.net;Password=UvkYa3fm;Encrypt=True;TrustServerCertificate=False;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\wwwsi\\Documents\\Visual\ Studio\ 2017\\Projects\\Lineage\\Lineage\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

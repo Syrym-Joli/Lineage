@@ -2020,7 +2020,8 @@
 			name:	'node-name',
 			title:	'node-title',
 			desc:	'node-desc',
-			contact: 'node-contact'
+			contact: 'node-contact',
+		    gender: 'node-gender',
 		}
 	};
 
